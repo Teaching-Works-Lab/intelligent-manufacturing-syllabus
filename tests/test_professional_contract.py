@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -100,3 +101,21 @@ def test_generation_metadata_discloses_factory_commit_and_template_digest():
     assert metadata["source_schema_version"] == "1.0.0"
     assert metadata["template"] == "syllabus-skill"
     assert metadata["validator"] == "curriculum_core.validation.validate_program"
+
+
+def test_public_manifest_matches_bundled_program_and_documents_exist():
+    program = json.loads(PROGRAM.read_text(encoding="utf-8"))
+    manifest = json.loads((ROOT / "data" / "manifest.public.json").read_text(encoding="utf-8"))
+
+    assert manifest["program_sha256"] == hashlib.sha256(PROGRAM.read_bytes()).hexdigest()
+    assert manifest["counts"] == {
+        "training_objectives": len(program["training_objectives"]),
+        "graduation_requirements": len(program["graduation_requirements"]),
+        "indicators": len(program["indicators"]),
+        "courses": len(program["courses"]),
+        "course_groups": len(program["course_groups"]),
+        "relations": len(program["relations"]),
+    }
+    assert (ROOT / "data" / "course-catalog.md").is_file()
+    assert (ROOT / "data" / "validation-report.md").is_file()
+    assert (ROOT / "ANONYMIZATION.md").is_file()

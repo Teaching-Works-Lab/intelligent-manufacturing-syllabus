@@ -1,0 +1,115 @@
+# 校验报告
+
+本报告记录结构与既定一致性规则的结果。警告为建议性提示，不表示培养质量、课程达成或官方审核结论。
+
+## 错误
+
+## 警告
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：1.1（实体：1.1） 来源页：22、23、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：1.2（实体：1.2） 来源页：21、22、23、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：1.3（实体：1.3） 来源页：22、23、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：10.1（实体：10.1） 来源页：21、22、23、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：10.2（实体：10.2） 来源页：21、22、23、24、25
+- [indicator-support-count-low] 指标点课程支持数低于建议范围（3–5）：11.1（实体：11.1） 来源页：21、22、24
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：11.2（实体：11.2） 来源页：21、22、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：12.1（实体：12.1） 来源页：21、22、23、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：12.2（实体：12.2） 来源页：21、22、23、24、25
+- [indicator-support-count-low] 指标点课程支持数低于建议范围（3–5）：2.1（实体：2.1） 来源页：23
+- [indicator-support-count-low] 指标点课程支持数低于建议范围（3–5）：2.2（实体：2.2） 来源页：21、23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25DZ21804（实体：25DZ21804） 来源页：22
+- [course-support-zero] 课程暂无指标点关系支持：25JD21104（实体：25JD21104）
+- [course-support-zero] 课程暂无指标点关系支持：25JD21105（实体：25JD21105）
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD21402（实体：25JD21402） 来源页：23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD21403（实体：25JD21403） 来源页：22
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD21407（实体：25JD21407） 来源页：22
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD31104（实体：25JD31104） 来源页：22
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD31106（实体：25JD31106） 来源页：23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD31108（实体：25JD31108） 来源页：23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD31110（实体：25JD31110） 来源页：23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD31111（实体：25JD31111） 来源页：23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD31114（实体：25JD31114） 来源页：22
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD31401（实体：25JD31401） 来源页：23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD31402（实体：25JD31402） 来源页：23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD31403（实体：25JD31403） 来源页：23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD31404（实体：25JD31404） 来源页：23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD31405（实体：25JD31405） 来源页：23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD31406（实体：25JD31406） 来源页：22、26
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD32105（实体：25JD32105） 来源页：23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD32106（实体：25JD32106） 来源页：23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD32402（实体：25JD32402） 来源页：23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD32403（实体：25JD32403） 来源页：24
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD32405（实体：25JD32405） 来源页：24
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD32406（实体：25JD32406） 来源页：24
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD32407（实体：25JD32407） 来源页：23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD32408（实体：25JD32408） 来源页：24
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD32410（实体：25JD32410） 来源页：24
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD32411（实体：25JD32411） 来源页：23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD32414（实体：25JD32414） 来源页：24
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD32416（实体：25JD32416） 来源页：24
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD32417（实体：25JD32417） 来源页：24
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD32418（实体：25JD32418） 来源页：23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD41101（实体：25JD41101） 来源页：25
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD41107（实体：25JD41107） 来源页：24
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD41108（实体：25JD41108） 来源页：24
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD41401（实体：25JD41401） 来源页：24
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD41402（实体：25JD41402） 来源页：24
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD41404（实体：25JD41404） 来源页：25
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD41407（实体：25JD41407） 来源页：25
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD41408（实体：25JD41408） 来源页：25
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD41409（实体：25JD41409） 来源页：24
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JD51401（实体：25JD51401） 来源页：25、26
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JX11001（实体：25JX11001） 来源页：21
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JX21800（实体：25JX21800） 来源页：22
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JX21801（实体：25JX21801） 来源页：24
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JX21804（实体：25JX21804） 来源页：23
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25JX31063（实体：25JX31063） 来源页：23
+- [course-support-zero] 课程暂无指标点关系支持：25JX31801（实体：25JX31801）
+- [course-support-zero] 课程暂无指标点关系支持：25JX31802（实体：25JX31802）
+- [course-support-zero] 课程暂无指标点关系支持：25JY11001（实体：25JY11001） 来源页：26
+- [course-support-zero] 课程暂无指标点关系支持：25JY11002（实体：25JY11002） 来源页：26
+- [course-support-zero] 课程暂无指标点关系支持：25JY11003（实体：25JY11003） 来源页：26
+- [course-support-zero] 课程暂无指标点关系支持：25MY11007（实体：25MY11007）
+- [course-support-zero] 课程暂无指标点关系支持：25MY11008（实体：25MY11008）
+- [course-support-zero] 课程暂无指标点关系支持：25MY11009（实体：25MY11009）
+- [course-support-zero] 课程暂无指标点关系支持：25MY11010（实体：25MY11010）
+- [course-support-zero] 课程暂无指标点关系支持：25MY11011（实体：25MY11011）
+- [course-support-zero] 课程暂无指标点关系支持：25MY11012（实体：25MY11012）
+- [course-support-zero] 课程暂无指标点关系支持：25MY11013（实体：25MY11013）
+- [course-support-zero] 课程暂无指标点关系支持：25MY11014（实体：25MY11014）
+- [course-support-zero] 课程暂无指标点关系支持：25MY41001（实体：25MY41001）
+- [course-support-zero] 课程暂无指标点关系支持：25MY41002（实体：25MY41002）
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25TJ21004（实体：25TJ21004） 来源页：22
+- [course-support-zero] 课程暂无指标点关系支持：25TS11301（实体：25TS11301）
+- [course-support-zero] 课程暂无指标点关系支持：25TS11302（实体：25TS11302）
+- [course-support-zero] 课程暂无指标点关系支持：25TS11303（实体：25TS11303）
+- [course-support-zero] 课程暂无指标点关系支持：25TS11304（实体：25TS11304）
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25TS11501（实体：25TS11501） 来源页：21
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25TS11503（实体：25TS11503） 来源页：21
+- [course-support-zero] 课程暂无指标点关系支持：25TS21101（实体：25TS21101）
+- [course-support-zero] 课程暂无指标点关系支持：25TS21102（实体：25TS21102）
+- [course-support-zero] 课程暂无指标点关系支持：25TS21201（实体：25TS21201）
+- [course-support-zero] 课程暂无指标点关系支持：25TS21202（实体：25TS21202）
+- [course-support-zero] 课程暂无指标点关系支持：25TS21205（实体：25TS21205）
+- [course-support-zero] 课程暂无指标点关系支持：25TS21206（实体：25TS21206）
+- [course-support-zero] 课程暂无指标点关系支持：25WY11301（实体：25WY11301）
+- [course-support-zero] 课程暂无指标点关系支持：25WY11302（实体：25WY11302）
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25XS11101（实体：25XS11101） 来源页：21
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25XS11304（实体：25XS11304） 来源页：21
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25XS41102（实体：25XS41102） 来源页：24
+- [course-support-count-high] 课程指标点支持数高于建议范围（2–5）：25XS51203（实体：25XS51203） 来源页：25、26
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：3.1（实体：3.1） 来源页：22、23、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：3.2（实体：3.2） 来源页：23、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：3.3（实体：3.3） 来源页：22、23、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：4.1（实体：4.1） 来源页：21、22、23、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：4.2（实体：4.2） 来源页：21、22、23、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：5.1（实体：5.1） 来源页：21、22、23、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：5.2（实体：5.2） 来源页：21、22、23、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：5.3（实体：5.3） 来源页：21、22、23、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：6.1（实体：6.1） 来源页：21、22、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：6.2（实体：6.2） 来源页：21、22、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：6.3（实体：6.3） 来源页：21、22、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：7.2（实体：7.2） 来源页：21、23、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：8.1（实体：8.1） 来源页：21、22、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：8.2（实体：8.2） 来源页：21、22、24、25
+- [indicator-support-count-high] 指标点课程支持数高于建议范围（3–5）：9.2（实体：9.2） 来源页：21、22、24、25
+- [course-support-zero] 课程暂无指标点关系支持：COURSE-GEN-ELECTIVE（实体：COURSE-GEN-ELECTIVE）

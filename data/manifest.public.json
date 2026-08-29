@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "智能制造工程-2025",
+  "major": "智能制造工程",
+  "major_code": "080213T",
+  "edition": "2025",
+  "program_sha256": "282c7a9001f413a3cc1064c612bd60280ecf32238f000fc8917da659253a7ffb",
+  "counts": {
+    "training_objectives": 4,
+    "graduation_requirements": 12,
+    "indicators": 30,
+    "courses": 100,
+    "course_groups": 23,
+    "relations": 714
+  },
+  "validation": {
+    "errors": 0,
+    "advisory_warnings": 108
+  },
+  "source": {
+    "public_reference": "private-source/智能制造工程-2025.pdf",
+    "page_count": 26,
+    "pdf_included": false,
+    "school_identity_anonymized": true
+  },
+  "boundary": "校验结果只说明结构和既定规则检查状态，不表示培养质量、课程达成或官方审核结论。"
+}
