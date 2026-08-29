@@ -1,8 +1,8 @@
 {
   "generated_skill": "intelligent-manufacturing-syllabus",
   "factory_commit": "af96d38ab1b8f1d63caf20646f2317c14879f744",
-  "template_digest": "sha256:4fc613a016a672bd2ecb00bb1ab13db20d25b872b73baf7eac7f4c6b82f2a3b9",
-  "template_digest_algorithm": "sha256(canonical JSON array of sorted relative path and sha256 entries; __pycache__ and *.pyc excluded)",
+  "template_digest": "sha256:0e1341f2228e4cfc8810df608edea9e0ae8e0f0a213c3770f69665a29aa1daea",
+  "template_digest_algorithm": "sha256(canonical JSON array of sorted {path, sha256} entries; UTF-8; sort_keys=true; separators=(',', ':'); __pycache__ and *.pyc excluded)",
   "source_program": "data/program.json",
   "source_schema_version": "1.0.0",
   "template": "syllabus-skill",

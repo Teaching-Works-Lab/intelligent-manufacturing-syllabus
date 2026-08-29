@@ -16,7 +16,10 @@ def render_query(result) -> str:
     ]
     lines.extend(f"- {relation['source']} -> {relation['target']}" for relation in result["official_indicator_relations"])
     lines.extend(["", "## 派生培养目标路径"])
-    lines.extend(f"- {relation['source']} -> {relation['target']}" for relation in result["derived_objective_relations"])
+    lines.extend(
+        f"- {relation['source']} -> {relation['target']}（经由 {' -> '.join(map(str, relation['via']))}）"
+        for relation in result["derived_objective_relations"]
+    )
     lines.extend(["", "## 待复核关系"])
     lines.extend(f"- {relation['source']} -> {relation['target']} ({relation['provenance'].get('verification_status')})" for relation in result["unresolved_indicator_relations"])
     return "\n".join(lines) + "\n"

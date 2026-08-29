@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+import re
 import subprocess
 import sys
 
@@ -52,6 +53,12 @@ def test_robot_query_separates_official_indicators_from_derived_objective_paths(
     assert "数据版本：2025" in markdown
     assert "## 官方指标点支撑" in markdown
     assert "## 派生培养目标路径" in markdown
+    assert "- 25JD31403 -> OBJ-2（经由 1.2 -> GR-1）" in markdown
+    assert "- 25JD31403 -> OBJ-2（经由 3.1 -> GR-3）" in markdown
+    objective_two_paths = [item for item in result["derived_objective_relations"] if item["target"] == "OBJ-2"]
+    rendered_objective_two_paths = [line for line in markdown.splitlines() if line.startswith("- 25JD31403 -> OBJ-2（经由 ")]
+    assert len(rendered_objective_two_paths) == len(objective_two_paths)
+    assert len(set(rendered_objective_two_paths)) == len(objective_two_paths)
 
 
 def test_out_of_scope_course_is_declined_and_routed_to_factory():
@@ -86,4 +93,10 @@ def test_bundled_program_satisfies_bundled_json_schema():
 def test_generation_metadata_discloses_factory_commit_and_template_digest():
     metadata = json.loads((ROOT / "generated-from.json").read_text(encoding="utf-8"))
     assert metadata["factory_commit"] == "af96d38ab1b8f1d63caf20646f2317c14879f744"
-    assert metadata["template_digest"] == "sha256:4fc613a016a672bd2ecb00bb1ab13db20d25b872b73baf7eac7f4c6b82f2a3b9"
+    assert metadata["template_digest"] == "sha256:0e1341f2228e4cfc8810df608edea9e0ae8e0f0a213c3770f69665a29aa1daea"
+    assert re.fullmatch(r"sha256:[0-9a-f]{64}", metadata["template_digest"])
+    assert metadata["template_digest_algorithm"].startswith("sha256(canonical JSON array")
+    assert metadata["source_program"] == "data/program.json"
+    assert metadata["source_schema_version"] == "1.0.0"
+    assert metadata["template"] == "syllabus-skill"
+    assert metadata["validator"] == "curriculum_core.validation.validate_program"
