@@ -1,0 +1,34 @@
+{
+  "name": "intelligent-manufacturing-syllabus",
+  "version": "0.1.0",
+  "description": "Query reviewable Intelligent Manufacturing training-program data for syllabus preparation.",
+  "author": {
+    "name": "Teaching Works Lab",
+    "url": "https://github.com/Teaching-Works-Lab"
+  },
+  "homepage": "https://github.com/Teaching-Works-Lab/intelligent-manufacturing-syllabus",
+  "repository": "https://github.com/Teaching-Works-Lab/intelligent-manufacturing-syllabus",
+  "keywords": [
+    "education",
+    "intelligent-manufacturing",
+    "training-program",
+    "syllabus"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Intelligent Manufacturing Syllabus",
+    "shortDescription": "Query verified 2025 training-program data for syllabi.",
+    "longDescription": "Query course facts, official indicator support, and derived training-objective traces from the reviewable Intelligent Manufacturing 2025 training-program dataset.",
+    "developerName": "Teaching Works Lab",
+    "category": "Education",
+    "capabilities": [
+      "Query official course fields",
+      "Trace course and graduation-requirement relations",
+      "Prepare sourced syllabus inputs"
+    ],
+    "defaultPrompt": [
+      "Query this course and separate official, derived, and pending syllabus fields.",
+      "Prepare sourced syllabus inputs for this Intelligent Manufacturing course."
+    ]
+  }
+}

@@ -2,6 +2,8 @@
 
 一个面向日常教学工作的可查询 Skill，内置智能制造工程 2025 版培养方案结构化数据，可用于检索课程基础字段、课程—指标点支撑关系和课程—培养目标派生追踪。
 
+它属于 [Teaching Works Lab 课程教学 Skill 体系](https://github.com/Teaching-Works-Lab)，由 `training-program-skill-factory` 生成，可作为 `course-teaching-workflows` 编制课程基座和课程大纲时的可选培养方案依据。
+
 ## 适合做什么
 
 - 按课程名称或课程代码查询学分、学时、学期、考核方式和开课单位；
@@ -41,6 +43,15 @@ py -3.12 scripts/curriculum.py syllabus data/program.json `
 ```
 
 如果作为 Codex Skill 安装，将整个仓库克隆或复制到 `$CODEX_HOME/skills/intelligent-manufacturing-syllabus`；未设置 `CODEX_HOME` 时通常使用 `~/.codex/skills/`。
+
+也可以通过组织 Marketplace 选择安装：
+
+```text
+codex plugin marketplace add Teaching-Works-Lab/.github
+codex plugin add intelligent-manufacturing-syllabus@teaching-works-lab
+```
+
+安装后可显式使用 `$intelligent-manufacturing-syllabus`。该专业数据 Skill 按需安装，不会随工厂或课程工作流自动安装。
 
 ## 数据内容
 
